@@ -13,6 +13,7 @@ p.chicken {
     border: 1px solid black;
     background-color: #ee9999b0;
     color: rgb(8, 8, 8);
+    margin-right: 0%;
 }
 
 p.beef {
@@ -25,18 +26,6 @@ p.sushi {
     border: 1px solid black;
     background-color: #e6d67f;
     color: rgb(10, 10, 10);
-}
-
-#title {
-    position: relative;
-    top: -16px;
-    left: 170px;
-    width: 25%;
-    height: 20px;
-    margin-right: auto;
-    margin-left: auto;
-    font-family: Helvetica;
-    text-align: center;
 }
 
 
@@ -66,6 +55,7 @@ p.sushi {
         border: 1px solid rgb(10, 10, 10);
         position: relative;
         overflow: hidden;
+        background-color: gray;
     }
     .col-lg-1 {
         width: 8.33%;
@@ -102,6 +92,17 @@ p.sushi {
     }
     .col-lg-12 {
         width: 100%;
+    }
+    #title {
+        position: relative;
+        top: -16px;
+        left: 40%;
+        width: 20%;
+        height: 20%;
+        margin-right: auto;
+        margin-left: auto;
+        font-family: Helvetica;
+        text-align: center;
     }
 }
 
@@ -162,6 +163,17 @@ p.sushi {
     .col-md-12 {
         width: 100%;
     }
+    #title {
+        position: relative;
+        top: -16px;
+        left: 40%;
+        width: 20%;
+        height: 20%;
+        margin-right: auto;
+        margin-left: auto;
+        font-family: Helvetica;
+        text-align: center;
+    }
 }
 
 
@@ -184,6 +196,7 @@ p.sushi {
         border: 1px solid rgb(10, 10, 10);
         position: relative;
         overflow: hidden;
+        margin-bottom: 15px;
     }
     .col-sl-1 {
         width: 8.33%;
@@ -220,5 +233,16 @@ p.sushi {
     }
     .col-sl-12 {
         width: 100%;
+    }
+    #title {
+        position: relative;
+        top: -16px;
+        left: 40%;
+        width: 20%;
+        height: 20%;
+        margin-right: auto;
+        margin-left: auto;
+        font-family: Helvetica;
+        text-align: center;
     }
 }
